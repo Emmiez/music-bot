@@ -1,5 +1,4 @@
-# Zhycorp Music Bot
-> A dedicated open-source music bot for Zhycorp based on [Jukebox](https://github.com/Hazmi35/jukebox)
+# Emmie Music Bot
 
 <a href="https://discord.gg/DxenCeV"><img src="https://img.shields.io/discord/332877090003091456?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
 <a href="https://discord.com/oauth2/authorize?client_id=690736793682968576&permissions=53857345&scope=bot"><img src="https://img.shields.io/static/v1?label=Invite%20Me&message=Disc%2011%230606&plastic&color=7289DA&logo=discord"></a>
@@ -10,8 +9,6 @@
 ## Usage
 
 **Requires [Node.JS](https://nodejs.org) version v14.x or above.**
-
-[Come here](https://github.com/zhycorp/disc-11#Glitch) if you want to use Glitch.com instead of localhost or [Heroku](https://heroku.com/deploy?template=https://github.com/zhycorp/disc-11/tree/master)
 
 1. Install [Node.JS](https://nodejs.org) and [Yarn (Optional)](https://yarnpkg.com)
 2. Rename `.env.schema` to `.env` and fill out the values (example on .env.example)
@@ -62,11 +59,6 @@ You can still use Glitch and keep it online in this project, no worries 😉
 13. To make it stay online, please watch [this video](https://youtu.be/6CSeovx0nvc?t=547) carefully
 
 Your bot is online, and ready to use!
-If you have any questions or need support, feel free to join our [Discord server](https://zhycorp.xyz/discord).
-
-## Docker
-Want to use Dockerized version of [this project](https://github.com/Hazmi35/jukebox)?
-Sure, we have provided them on the [Docker Hub](https://hub.docker.com/r/hazmi35/jukebox), and also in [GitHub Container Registry](https://github.com/users/Hazmi35/packages/container/package/jukebox).
 
 ### Volumes
 [Docker Volumes](https://docs.docker.com/storage/volumes/) are needed to store cache and logs persistently.
@@ -90,5 +82,3 @@ $ docker-compose up
 - Configurable (easy to use)
 - Docker-friendly (if you're advanced user)
 - Lightweight (only around 120MB with dev dependencies pruned)
-
-Based on [discord-music-bot](https://github.com/iCrawl/discord-music-bot) and reworked from [jukebox](https://github.com/Hazmi35/jukebox)
